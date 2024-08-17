@@ -4,7 +4,7 @@
 
 2.document.firstChild;
 
-3.document.firstChild.lastELementChild;
+3.document.firstChild.lastElementChild;
 
 4.document.firstChild.firstElementChild;
 
@@ -12,15 +12,15 @@
 
 6.document.getElementbyId("h1");
 
-6.document.getElementByTagName("list");
+6.document.getElementsByTagName("list");
 
-7.document.getElementByClassName("btn");
+7.document.getElementsByClassName("btn");
 
-8.document.querySelector.style.color="red";
+8.document.querySelector("h1").style.color="red";
 
 9.document.querySelector("a");
 
-10.document.getAttributes("a");
+10.document.querySelector("a").getAttribute("href");
 
 11.document.getAttribute("href");//www.google.com
 
