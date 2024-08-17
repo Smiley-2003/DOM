@@ -24,7 +24,7 @@
 
 11.document.getAttribute("href");//www.google.com
 
-12.document.setAttribute("href","https//www.bing.com");
+12.document.setAttribute("href","https://www.bing.com");
 
 13.document.querySelectorAll("list a");
 
